@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMTG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 4em;
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 8px;
+            font-weight: bold;
+        }
+        
+        .description {
+            text-align: center;
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .link-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 18px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-size: 1.1em;
+        }
+        
+        .link-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 3em;
+                letter-spacing: 4px;
+            }
+            
+            .container {
+                padding: 40px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KMTG</h1>
+        <p class="description">
+            Welcome to KMTG! This is your hub for all things awesome. Explore the links below to discover more about what we do and connect with us.
+        </p>
+        <div class="links">
+            <a href="#" class="link-item">About Us</a>
+            <a href="#" class="link-item">Our Services</a>
+            <a href="#" class="link-item">Portfolio</a>
+            <a href="#" class="link-item">Contact</a>
+            <a href="#" class="link-item">Blog</a>
+        </div>
+    </div>
+</body>
+</html>
